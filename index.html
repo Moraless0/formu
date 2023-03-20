@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AppDeGatos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h2>AppDeGatos</h2>
+    <main>
+      <h3>Imágenes de Gatos:</h3>
+      <!-- TODO: Agregar enlace a imágenes de gatos -->
+      <p>Haz click aquí para ver más <a href="https://pixabay.com/es/images/search/gato/" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
+
+      <a href="https://www.youtube.com/watch?v=ONiyQ-SXX0A" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+
+      <hr>
+
+      <h3>Listas de Gatos</h3>
+
+      <div>
+        <p>Cosas que los gatos <em>aman</em>:</p>
+        <ul>
+          <li>Menta gatuna</li>
+          <li>Apuntadores Láser</li>
+          <li><s>Lasaña</s></li>
+        </ul>
+        <img src="https://assets.unileversolutions.com/recipes-v2/232080.jpg" alt="Lasaña" height="200" size="20">
+
+        <p>Cosas que los gatos <strong>odian</strong>:</p>
+        <ol>
+          <li>Tratamientos antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+      </div>
+      <img src="https://cdn.onemars.net/sites/nutro_es_NkyIN_B9cV/image/20_1615982101979.jpeg" alt="Gatos" height="200" size="20">
+
+      <form action="https://formsubmit.co/moraless06@hotmail.com" method="POST">
+        <!-- Botones de Radio -->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+        </label>
+        <br>
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+        </label>
+        <br>
+      
+        <!-- Casillas de Verificación -->
+        <label for="carinoso">
+          <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked>Cariñoso
+        </label>
+        <br>
+        <label for="perezoso">
+          <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+        </label>
+        <br>
+        <label for="energico">
+          <input id="energico" type="checkbox" value="energico" name="personalidad">Enérgico
+        </label>
+        <br>
+
+        <!-- Texto y Botón Enviar -->
+        <input type="text" placeholder="Mensaje" required><br>
+        <button type="submit" class="btn btn-dark">Enviar</button>
+      </form>
+    </main>
+    </footer>
+    <br>
+    <br>
+
+  </body>
+</html>
